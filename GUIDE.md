@@ -7,20 +7,20 @@
 
 ## Table of Contents
 
-- [Step 1 — Identify All Devices on Your Network](#step-1--identify-all-devices-on-your-network)
-- [Step 2 — Set Up OpenDNS Home](#step-2--set-up-opendns-home)
-- [Step 3 — Configure Your Router DNS](#step-3--configure-your-router-dns)
-- [Step 4 — Block DNS Bypass Methods](#step-4--block-dns-bypass-methods)
-- [Step 5 — Set Up DDNS for IP Auto-Update](#step-5--set-up-ddns-for-ip-auto-update)
-- [Step 6 — Block Sideloaded App Download Sites](#step-6--block-sideloaded-app-download-sites)
-- [Step 7 — Set Time-Based Restrictions Per Device](#step-7--set-time-based-restrictions-per-device)
+- [01: Identify All Devices on Your Network](#step-1--identify-all-devices-on-your-network)
+- [02: Set Up OpenDNS Home](#step-2--set-up-opendns-home)
+- [03: Configure Your Router DNS](#step-3--configure-your-router-dns)
+- [04: Block DNS Bypass Methods](#step-4--block-dns-bypass-methods)
+- [05: Set Up DDNS for IP Auto-Update](#step-5--set-up-ddns-for-ip-auto-update)
+- [06: Block Sideloaded App Download Sites](#step-6--block-sideloaded-app-download-sites)
+- [07: Set Time-Based Restrictions Per Device](#step-7--set-time-based-restrictions-per-device)
 - [Monitoring and Maintenance](#monitoring--maintenance)
 - [Common Bypass Attempts and Countermeasures](#common-bypass-attempts--countermeasures)
 - [Limitations](#limitations)
 
 ---
 
-## Step 1 — Identify All Devices on Your Network
+## 01. Identify All Devices on Your Network
 
 ### 1.1 Access the DHCP Client List
 
@@ -61,7 +61,7 @@ Red flags to look for:
 
 ---
 
-## Step 2 — Set Up OpenDNS Home
+## 02. Set Up OpenDNS Home
 
 ### 2.1 Create Your Account
 
@@ -99,8 +99,9 @@ Enable:
 - ✅ Botnet
 - ✅ Phishing
 - ✅ Malware
+  
 
-These protect every device from malicious sites — beyond content filtering.
+These protect every device from malicious sites beyond content filtering.
 
 ### 2.4 Enable Stats and Logs
 
@@ -111,7 +112,7 @@ and request volume over time.
 
 ---
 
-## Step 3 — Configure Your Router DNS
+## 03. Configure Your Router DNS
 
 DNS settings must be applied in **two places** on your router. Both are required.
 
@@ -143,7 +144,7 @@ Navigate to: **WAN → WAN Configuration → click your active internet connecti
 
 ---
 
-## Step 4 — Block DNS Bypass Methods
+## 04. Block DNS Bypass Methods
 
 This step is what separates a basic setup from a robust one.
 
@@ -230,7 +231,7 @@ Once installed they cannot be removed by Play Protect alone. Block their sources
 Navigate to: **Security → Parental Control Configuration**
 (or **URL Filter** / **Domain Filter** depending on your router firmware)
 
-Add these domains to the block list:
+Add these domains to the block list (feel free to add more if you know them ):
 
 ```
 vidmate.net
@@ -249,7 +250,7 @@ or bundle adware and spyware.
 
 ---
 
-## Step 7 — Set Time-Based Restrictions Per Device
+## 07. Set Time-Based Restrictions Per Device
 
 Navigate to: **Security → Parental Control Configuration**
 

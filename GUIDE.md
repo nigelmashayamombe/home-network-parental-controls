@@ -7,13 +7,13 @@
 
 ## Table of Contents
 
-- [01: Identify All Devices on Your Network](#01.identify-all-devices-on-your-network)
-- [02: Set Up OpenDNS Home](#02.set-up-opendns-home)
-- [03: Configure Your Router DNS](#step-3--configure-your-router-dns)
-- [04: Block DNS Bypass Methods](#step-4--block-dns-bypass-methods)
-- [05: Set Up DDNS for IP Auto-Update](#step-5--set-up-ddns-for-ip-auto-update)
-- [06: Block Sideloaded App Download Sites](#step-6--block-sideloaded-app-download-sites)
-- [07: Set Time-Based Restrictions Per Device](#step-7--set-time-based-restrictions-per-device)
+- [01: Identify All Devices on Your Network](#01-identify-all-devices-on-your-network)
+- [02: Set Up OpenDNS Home](#02-set-up-opendns-home)
+- [03: Configure Your Router DNS](#03-configure-your-router-dns)
+- [04: Block DNS Bypass Methods](#04-block-dns-bypass-methods)
+- [05: Set Up DDNS for IP Auto-Update](#05-set-up-ddns-for-ip-auto-update)
+- [06: Block Sideloaded App Download Sites](#06-block-sideloaded-app-download-sites)
+- [07: Set Time-Based Restrictions Per Device](#07-set-time-based-restrictions-per-device)
 - [Monitoring and Maintenance](#monitoring--maintenance)
 - [Common Bypass Attempts and Countermeasures](#common-bypass-attempts--countermeasures)
 - [Limitations](#limitations)
@@ -202,7 +202,7 @@ For each rule: Protocol = `TCP`, WAN-side TCP Port = `443`
 
 ---
 
-## Step 5 — Set Up DDNS for IP Auto-Update
+## 05. Set Up DDNS for IP Auto-Update
 
 OpenDNS Home applies filtering based on your registered public IP address. Most home ISPs
 use dynamic IPs that can change without notice — silently breaking your filtering when they do.
@@ -234,7 +234,7 @@ Click Apply. The **DDNS Service State** table should show **Run State: Up** with
 
 ---
 
-## Step 6 — Block Sideloaded App Download Sites
+## 06. Block Sideloaded App Download Sites
 
 Apps like VidMate are distributed as APK files outside official app stores.
 Once installed they cannot be removed by Play Protect alone. Block their sources at the router.

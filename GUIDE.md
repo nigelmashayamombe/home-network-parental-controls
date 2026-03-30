@@ -7,8 +7,8 @@
 
 ## Table of Contents
 
-- [01: Identify All Devices on Your Network](#step-1--identify-all-devices-on-your-network)
-- [02: Set Up OpenDNS Home](#step-2--set-up-opendns-home)
+- [01: Identify All Devices on Your Network](#01.identify-all-devices-on-your-network)
+- [02: Set Up OpenDNS Home](#02.set-up-opendns-home)
 - [03: Configure Your Router DNS](#step-3--configure-your-router-dns)
 - [04: Block DNS Bypass Methods](#step-4--block-dns-bypass-methods)
 - [05: Set Up DDNS for IP Auto-Update](#step-5--set-up-ddns-for-ip-auto-update)

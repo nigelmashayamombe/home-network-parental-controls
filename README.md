@@ -60,13 +60,13 @@ No paid subscriptions. No apps installed on devices. About 45 minutes of setup.
 
 | Step | What You'll Do |
 |---|---|
-| [1 — Identify Devices](GUIDE.md#step-1--identify-all-devices-on-your-network) | Build a device registry from your router's DHCP table |
-| [2 — Set Up OpenDNS](GUIDE.md#step-2--set-up-opendns-home) | Create your free account and configure content filtering |
-| [3 — Configure Router DNS](GUIDE.md#step-3--configure-your-router-dns) | Point your router and all devices to OpenDNS |
-| [4 — Block Bypass Methods](GUIDE.md#step-4--block-dns-bypass-methods) | Block DoT and DoH at the firewall level |
-| [5 — Set Up DDNS](GUIDE.md#step-5--set-up-ddns-for-ip-auto-update) | Keep OpenDNS updated when your IP changes |
-| [6 — Block Sideloaded Apps](GUIDE.md#step-6--block-sideloaded-app-download-sites) | Block VidMate and similar APK sources |
-| [7 — Time Restrictions](GUIDE.md#step-7--set-time-based-restrictions-per-device) | Set internet curfews per device |
+| [Identify Devices](GUIDE.md#step-1--identify-all-devices-on-your-network) | Build a device registry from your router's DHCP table |
+| [Set Up OpenDNS](GUIDE.md#step-2--set-up-opendns-home) | Create your free account and configure content filtering |
+| [Configure Router DNS](GUIDE.md#step-3--configure-your-router-dns) | Point your router and all devices to OpenDNS |
+| [Block Bypass Methods](GUIDE.md#step-4--block-dns-bypass-methods) | Block DoT and DoH at the firewall level |
+| [Set Up DDNS](GUIDE.md#step-5--set-up-ddns-for-ip-auto-update) | Keep OpenDNS updated when your IP changes |
+| [Block Sideloaded Apps](GUIDE.md#step-6--block-sideloaded-app-download-sites) | Block VidMate and similar APK sources |
+| [Time Restrictions](GUIDE.md#step-7--set-time-based-restrictions-per-device) | Set internet curfews per device |
 
 ---
 
@@ -113,3 +113,13 @@ The technical writeup and documentation were produced in conjunction with
 The implementation, testing, troubleshooting, and real-world context are human. The polish is shared.
 
 ---
+---
+
+<div align="center">
+
+*Built by a guardian , for other guardians/parents.*
+*The router in your hallway is the most powerful parental control you already own —
+you just need to know how to use it.*
+
+</div>
+

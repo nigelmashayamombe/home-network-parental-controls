@@ -16,7 +16,7 @@ This scenario is common. It happens in countless homes worldwide, including plac
 
 ---
 
-# The Threat Is Real — And It Is Growing
+## The Threat Is Real, and It Is Growing
 
 * 90% of boys and 60% of girls are exposed to online pornography before the age of 18.
 * Apps like VidMate and Snaptube, distributed outside official app stores, bundle adult content aggregators, hidden adware, and, in documented cases, spyware. They are built specifically to bypass platform content policies.
@@ -72,7 +72,7 @@ No paid subscriptions. No apps installed on devices. About 45 minutes of setup.
 
 ## Prerequisites
 
-- Access to your router admin panel — usually `http://192.168.100.1` or `http://192.168.1.1`
+- Access to your router admin panel , usually `http://192.168.100.1` or `http://192.168.1.1`
 - A free [OpenDNS Home](https://www.opendns.com/home-internet-security/) account
 - Your router admin credentials (usually printed on the router sticker)
 
@@ -99,7 +99,7 @@ No paid subscriptions. No apps installed on devices. About 45 minutes of setup.
 Found an error? Have a fix for a different router brand or ISP configuration?
 
 **Contributions and corrections are welcome.** Please open an issue or submit a pull request.
-This guide is intended to grow into a community resource — particularly across Africa and other
+This guide is intended to grow into a community resource particularly across Africa and other
 regions where practical home network security documentation is scarce.
 
 ---
@@ -118,7 +118,7 @@ The implementation, testing, troubleshooting, and real-world context are human. 
 <div align="center">
 
 *Built by a guardian , for other guardians/parents.*
-*The router in your hallway is the most powerful parental control you already own —
+*The router in your hallway is the most powerful parental control you already own ,
 you just need to know how to use it.*
 
 </div>

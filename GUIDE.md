@@ -33,7 +33,9 @@ This page lists every connected device with:
 - IP Address
 - MAC Address (unique hardware identifier)
 - Device type
-
+- 
+![DHCP Device List](assets/dchp-info.png)
+  
 ### 1.2 Build Your Device Registry
 
 Write down the MAC address of every device and assign it to a person. This is your audit trail.
@@ -91,6 +93,8 @@ Recommended categories to block:
 > unticked avoids blocking your own usage. Be aware it leaves a bypass avenue open.
 > A practical workaround: tick it and use your VPN on mobile data rather than home WiFi.
 
+![DHCP Device List](assets/dashboard.png)
+
 ### 2.3 Enable Security Categories
 
 Scroll to the bottom of the content filtering page and click **"Looking for security categories?"**
@@ -99,7 +103,8 @@ Enable:
 - ✅ Botnet
 - ✅ Phishing
 - ✅ Malware
-  
+
+  ![Open DNS Security controls](assets/security-controls.png)
 
 These protect every device from malicious sites beyond content filtering.
 
@@ -109,6 +114,8 @@ Go to **Settings → Stats and Logs → Enable stats and logs** → Apply.
 
 This activates your activity dashboard — DNS queries, top domains, blocked attempts,
 and request volume over time.
+
+![Stats](assets/stats.png)
 
 ---
 
@@ -155,6 +162,8 @@ your router's DNS using:
 - **DNS-over-HTTPS (DoH):** DNS tunnelled through HTTPS on port 443, using hardcoded server IPs
 
 Standard DNS filtering does not intercept these. They must be blocked at the firewall.
+
+![IP filter rules](assets/ip-filter-config.png)
 
 ### 4.1 Navigate to IP Filter
 
@@ -220,6 +229,8 @@ Click Apply. The **DDNS Service State** table should show **Run State: Up** with
 >
 > OpenDNS is not natively listed as a DDNS provider on most routers. Use `dyndns` as the
 > service provider — OpenDNS supports the DynDNS update protocol via `updates.opendns.com`.
+
+  ![DDNS configuration](assets/ddhs.png)
 
 ---
 
